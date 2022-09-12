@@ -1,1 +1,1 @@
-The service interacting with a user <b>via console</b>. No real values from a user. All the answers are hardcoded. The service reads user's input from the console and prints the answers to the console.
+Might be swithed to the private repo or moved from github someday. Please beware that your stars given to me (if any) might be lost.
