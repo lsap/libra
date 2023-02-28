@@ -1,5 +1,5 @@
 {-# OPTIONS --safe #-}
 
-module Operational where
+module hello where
 
 open import Data.Fin using (zero)
