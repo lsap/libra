@@ -1,6 +1,7 @@
 module hello-world where
 
-open impor Agda.Builtin.IO using (IO)
+open import Agda.Builtin.IO using (IO)
+open import Agda.Builtin.Unit using (⊤)
 
 main : IO ()
 main = putStrLn "hello"
