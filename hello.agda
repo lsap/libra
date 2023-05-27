@@ -1,4 +1,5 @@
 {-# OPTIONS --safe #-}
+B
 {-
 0
 1
