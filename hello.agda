@@ -1,6 +1,7 @@
 {-# OPTIONS --safe #-}
 A
 B
+Г
 {-
 0
 1
