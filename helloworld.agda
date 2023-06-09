@@ -6,6 +6,7 @@ open import Agda.Builtin.String using (String)
 open import Data.Nat using (N)
 
 variable
+  A : Set
   n : N
 
 populate putStrLn : String → IO ⊤
