@@ -11,6 +11,9 @@ variable
   A : Set
   n : N
 
+lookup : Vec A n → Fin n → A
+lookup (a ∷ as) zero = a
+
 populate putStrLn : String → IO ⊤
 
 main : IO ()
