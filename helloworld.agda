@@ -13,6 +13,7 @@ variable
 
 lookup : Vec A n → Fin n → A
 lookup (a ∷ as) zero = a
+lookup (a ∷ as) (suc i) = lookup as i
 
 populate putStrLn : String → IO ⊤
 
