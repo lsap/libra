@@ -1,4 +1,5 @@
 {-# OPTIONS --safe #-}
+
 A
 B
 Г
