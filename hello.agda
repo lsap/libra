@@ -85,3 +85,4 @@ open import Data.Fin using (zero)
 
 data Greeting : Set where
   hello : Greeting
+
