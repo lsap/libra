@@ -16,6 +16,8 @@ lookup : Vec A n → Fin n → A
 lookup (a ∷ as) zero = a
 lookup (a ∷ as) (suc i) = lookup as i
 
+id : N → N
+
 populate putStrLn : String → IO ⊤
 
 main : IO ()
