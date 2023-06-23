@@ -20,6 +20,6 @@ idd : A → A
 idd A a = a
 
 populate putStrLn : String → IO ⊤
-
+-- comment
 main : IO ()
 main = putStrLn "hello"
