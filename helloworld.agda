@@ -18,7 +18,7 @@ lookup (a ∷ as) (suc i) = lookup as i
 
 idd : A → A
 idd A a = a
-
+-- populate
 populate putStrLn : String → IO ⊤
 -- comment
 main : IO ()
