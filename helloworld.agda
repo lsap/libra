@@ -4,13 +4,13 @@ open import Agda.Builtin.IO using (IO)
 open import Agda.Builtin.Unit using (⊤)
 open import Agda.Builtin.String using (String)
 
-open import Data.Nat using (N)
+open import Data.Nat using (ℕ)
 open import Data.Vec using (_::_)
 open import Data.Fin using (Fin; zero; suc)
 
 variable
   A : Set
-  n : N
+  n : ℕ
 
 lookup : Vec A n → Fin n → A
 lookup (a ∷ as) zero = a
